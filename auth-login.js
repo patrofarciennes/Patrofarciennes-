@@ -69,3 +69,4 @@ if (!firebaseConfig.apiKey || firebaseConfig.apiKey === "API_KEY_ICI") {
     });
   });
 }
+
