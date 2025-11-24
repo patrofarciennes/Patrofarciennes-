@@ -3,15 +3,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebas
 import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "API_KEY_ICI",
-  authDomain: "PROJECT_ID.firebaseapp.com",
-  projectId: "PROJECT_ID",
-  storageBucket: "PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyB7GvjF785yTKIF3JMXeDYMVeiV7rTRx5A",
+  authDomain: "patro-de-farciennes-api.firebaseapp.com",
+  projectId: "patro-de-farciennes-api",
+  storageBucket: "patro-de-farciennes-api.firebasestorage.app",
+  messagingSenderId: "105134143434",
+  appId: "1:105134143434:web:bfc765580e15af7e2c8133",
+  measurementId: "G-VDGKSG9JRJ"
 };
 
-// Vérification simple
 if (!firebaseConfig.apiKey || firebaseConfig.apiKey === "API_KEY_ICI") {
   document.addEventListener("DOMContentLoaded", () => {
     const msg = document.getElementById("login-msg");
